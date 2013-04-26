@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Sinatra Scraper</title>
+    </head>
+    <body>
+        <div id="mainInputs" align="center">
+            <form id="mainForm">
+                URL <input id="urlInput" type="text" placeholder="Copy and paste url here to begin" class="twitterStyleTextbox"/>
+                <button id="fetchButton" class="thoughtbot" title="Click to display data">Pull Data</button>
+            </form>
+        </div>
+        <div id="spinnerDiv"></div>
+        <%=yield%>
+        <!-- Container for Masonry items -->
+        <div id="container"></div>
+    </body>
+</html>
